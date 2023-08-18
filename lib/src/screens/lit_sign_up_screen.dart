@@ -181,7 +181,7 @@ class _AnimatedGeometry extends StatelessWidget {
             angle: _angle,
             child: Transform(
               transform: _backgroundArtTransform,
-              child: BluredBackgroundContainer(
+              child: BlurBackgroundContainer(
                 blurRadius: 2.0,
                 child: SizedBox(
                   height: height,

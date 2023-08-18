@@ -92,7 +92,7 @@ class LitElevatedGlassCard extends StatelessWidget {
                   borderRadius: borderRadius,
                   color: Colors.white54,
                 ),
-                child: BluredBackgroundContainer(
+                child: BlurBackgroundContainer(
                   blurRadius: 8.0,
                   borderRadius: borderRadius,
                   child: LitElevatedCard(

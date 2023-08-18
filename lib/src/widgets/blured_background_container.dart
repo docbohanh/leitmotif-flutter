@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-class BluredBackgroundContainer extends StatelessWidget {
+class BlurBackgroundContainer extends StatelessWidget {
   final Widget child;
   final double blurRadius;
   final BorderRadius borderRadius;
@@ -11,11 +11,11 @@ class BluredBackgroundContainer extends StatelessWidget {
   ///
   /// It blurs the provided [child] by applying an [ImageFilter].
   /// The [blurRadius] will control the blur effect.
-  const BluredBackgroundContainer({
+  const BlurBackgroundContainer({
     Key? key,
     required this.child,
     this.blurRadius = 2.0,
-    this.borderRadius: BorderRadius.zero,
+    this.borderRadius = BorderRadius.zero,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {

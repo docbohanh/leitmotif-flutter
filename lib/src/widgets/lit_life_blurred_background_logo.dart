@@ -21,7 +21,7 @@ class LitLifeBlurredBackgroundLogo extends StatelessWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return BluredBackgroundContainer(
+    return BlurBackgroundContainer(
       borderRadius: borderRadius,
       blurRadius: blurRadius,
       child: Container(

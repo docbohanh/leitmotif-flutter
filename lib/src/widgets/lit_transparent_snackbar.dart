@@ -68,7 +68,7 @@ class _LitTransparentSnackbarState extends State<LitTransparentSnackbar> {
           color: Colors.white24,
           width: constraints.maxWidth,
           height: constraints.maxHeight,
-          child: BluredBackgroundContainer(
+          child: BlurBackgroundContainer(
             borderRadius: widget.borderRadius,
             child: widget.child,
             blurRadius: _blur,

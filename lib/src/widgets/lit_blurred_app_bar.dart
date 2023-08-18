@@ -37,7 +37,7 @@ class LitBlurredAppBar extends StatelessWidget implements CustomAppBar {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.topCenter,
-      child: BluredBackgroundContainer(
+      child: BlurBackgroundContainer(
         blurRadius: blurRadius,
         child: Container(
           height: height,

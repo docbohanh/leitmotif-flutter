@@ -34,7 +34,7 @@ class _LitAnimatedGradientBackgroundState
       body: AnimatedBuilder(
         animation: _animationController,
         builder: (context, _) {
-          return BluredBackgroundContainer(
+          return BlurBackgroundContainer(
             blurRadius: 4.0,
             child: Container(
               child: Stack(

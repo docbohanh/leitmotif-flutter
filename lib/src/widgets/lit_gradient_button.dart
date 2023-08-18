@@ -113,7 +113,7 @@ class _LitGradientButtonState extends State<LitGradientButton>
                 widget.animated ? -4.0 + 4.0 * _animationController.value : 0,
                 0),
             child: widget.blurred
-                ? BluredBackgroundContainer(
+                ? BlurBackgroundContainer(
                     borderRadius: widget.borderRadius,
                     child: _ButtonContent(
                       borderRadius: widget.borderRadius,

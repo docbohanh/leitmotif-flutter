@@ -5,15 +5,14 @@ description: >-
   A collection of widgets and screens for Flutter implementing the Leitmotif Design Language.
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.1 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  package_info_plus: ^1.4.3+1
+  package_info_plus: ^4.1.0
   intl: ^0.18.0
 
 dev_dependencies:

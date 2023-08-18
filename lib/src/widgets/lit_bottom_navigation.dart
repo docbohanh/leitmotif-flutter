@@ -112,7 +112,7 @@ class _LitBottomNavigationState extends State<LitBottomNavigation>
                 height: widget.height,
                 tabs: widget.tabs,
               ),
-              BluredBackgroundContainer(
+              BlurBackgroundContainer(
                 blurRadius: widget.blurRadius,
                 child: Container(
                   height: widget.height,

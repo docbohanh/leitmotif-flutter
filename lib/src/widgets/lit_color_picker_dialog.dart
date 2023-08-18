@@ -351,7 +351,7 @@ class _ValIndicator extends StatelessWidget {
                     transform: Matrix4.translationValues(0, 0, 0),
                     child: Align(
                       alignment: Alignment.topRight,
-                      child: BluredBackgroundContainer(
+                      child: BlurBackgroundContainer(
                         borderRadius: BorderRadius.all(
                           Radius.circular(
                             12.0,
